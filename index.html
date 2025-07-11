@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Attia - Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans:wght@400;500;700;900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+
+<body> <!-- Floating Icons Background -->
+  <div class="floating-icons" id="floatingIcons"></div> <!-- Header -->
+  <header>
+    <div class="logo"> <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_6_319)">
+          <path
+            d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+            fill="currentColor"></path>
+        </g>
+      </svg> <span class="logo-text">Mohamed Attia</span> </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions"> <button class="theme-toggle" id="themeToggle"> <i class="fas fa-moon"></i> </button>
+      <img
+        src="images/mohamed_attia_2.jpg"
+        alt="Profile" class="profile-pic">
+    </div> <button class="mobile-menu-btn" id="mobileMenuBtn"> <i class="fas fa-bars"></i> </button>
+  </header> <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-header">
+      <div class="logo"> <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_6_319)">
+            <path
+              d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+              fill="currentColor"></path>
+          </g>
+        </svg>  <span class="logo-text">Mohamed Attia</span> </div> <button class="close-menu-btn" id="closeMenuBtn"> <i
+          class="fas fa-times"></i> </button>
+    </div>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer"> <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle"> <i
+          class="fas fa-moon"></i> Toggle Theme </button> </div>
+  </div>
+  <div class="overlay" id="overlay"></div> <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Front-End <span class="typing-text">Developer</span></h1>
+        <h2>Turning ideas into pixel-perfect, engaging web experiences.</h2>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-outline">View My Work</a>
+        </div>
+      </div>
+  </section> <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+         <p>I'm a Front-End Web Developer based in Egypt, with a strong passion for building responsive, user-friendly websites and web apps. I specialize in translating design into clean, maintainable code using modern front-end technologies.</p>
+<p>My journey in web development began in 2023, and since then, I've been committed to mastering the craft. I recently graduated from the ITI Intensive Program in the Front-End Development track, where I built real-world projects and sharpened my skills in UI/UX, performance optimization, and writing scalable, accessible code.</p>
+
+
+        </div>
+        <div class="profile-container">
+          <img src="images/mohamed_attia_2.jpg" alt="Mohamed Attia" class="profile-img">
+          <div class="profile-info">
+            <h3>Mohamed Attia</h3>
+            <p>Front-End Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <div class="skill-info">
+            <h3>HTML5 & CSS3</h3>
+            <p>Semantic markup and responsive design with CSS Grid and Flexbox</p>
+          </div>
+        </div>
+           <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <div class="skill-info">
+            <h3>JavaScript (ES6+)</h3>
+            <p>Modern JavaScript including async/await, promises, and functional programming</p>
+          </div>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-angular"></i></div>
+          <div class="skill-info">
+            <h3>Angular</h3>
+            <p>Developing scalable SPAs with components, services, and powerful tooling</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-react"></i></div>
+          <div class="skill-info">
+            <h3>React.js</h3>
+            <p>Building interactive UIs with reusable components and state management</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <div class="skill-info">
+            <h3>TypeScript</h3>
+            <p>Strongly typed JavaScript for writing robust and maintainable code</p>
+          </div>
+        </div>
+     
+        
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <div class="skill-info">
+            <h3>Git & GitHub</h3>
+            <p>Version control and collaborative development workflows</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img
+            src="images/MOVIE APP.png"
+            alt="movie app" class="project-image">
+          <div class="project-info">
+            <h3>Movie App</h3>
+            <p>A dynamic movie app featuring now-playing listings, detailed movie info, watchlist management, and trailer previews — all built with Angular and TMDB API integration.</p>
+            <div class="project-links">
+              <a href="https://magical-daifuku-604a2d.netlify.app/" target="_blank" class="project-link">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="images/netflex.png"
+            alt="netflex clone" class="project-image">
+          <div class="project-info">
+            <h3>Netflex Clone</h3>
+            <p>Streaming platform clone with dynamic movie browsing, category filtering, and interactive UI built using Vanilla JavaScript and the TMDB API.</p>
+            <div class="project-links">
+              <a href="https://movie-app-home-page-p2m5jvf4l-mohamed-attias-projects-6cf46f25.vercel.app/" target="_blank" class="project-link">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="images/lookscout.png"
+            alt="lokkscout" class="project-image">
+          <div class="project-info">
+            <h3>Landing Page</h3>
+            <p>Responsive landing page with modern layout, smooth animations, and clean design — built from scratch using HTML and CSS.</p>
+            <div class="project-links">
+              <a href="https://mohamedattia50.github.io/lookscout/" target="_blank" class="project-link">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="images/p app.png"
+            alt="lokkscout" class="project-image">
+          <div class="project-info">
+            <h3>SmartShop – Angular Product App</h3>
+            <p>E-commerce product app with dynamic listings, detailed product views, cart and wishlist management, and multilingual support — built with Angular, Signals, and modern state management.</p>
+            <div class="project-links">
+              <a href="https://elaborate-entremet-8334a3.netlify.app/" target="_blank" class="project-link">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="images/fin.png"
+            alt="finsweat" class="project-image">
+          <div class="project-info">
+            <h3>Finsweat – Fitness Landing Page</h3>
+            <p>Responsive fitness landing page with sleek design, engaging call-to-actions, and mobile-first layout — built with HTML, CSS</p>
+            <div class="project-links">
+              <a href="https://mohamedattia50.github.io/finsweat/" target="_blank" class="project-link">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Let's work together!</h3>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <a href="mailto:mohamedaatiya05@gmail.com">mohamedaatiya05@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Egypt</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links-contact">
+            <a href="https://github.com/MohamedAttia50" target="_blank" class="social-link-contact"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mohamed-attia-72983927b/" target="_blank" class="social-link-contact"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link-contact"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link-contact"><i class="fab fa-codepen"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm"  action="https://formspree.io/f/yourFormID" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input name="name" type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input name="email" type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input name="subject" type="text" id="subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com/MohamedAttia50" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/mohamed-attia-72983927b/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+        </div>
+        <p class="copyright">© 2025 Mohamed Attia. All rights reserved.</p>
+      </div>
+      <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
